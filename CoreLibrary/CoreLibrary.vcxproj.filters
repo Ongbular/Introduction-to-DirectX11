@@ -24,10 +24,16 @@
     <ClInclude Include="include\CoreAPI.h">
       <Filter>CoreLibrary</Filter>
     </ClInclude>
+    <ClInclude Include="include\Misc\ConsoleManager.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="source\CoreLibraryPCH.cpp">
       <Filter>CoreLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Misc\ConsoleManager.cpp">
+      <Filter>Misc</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
