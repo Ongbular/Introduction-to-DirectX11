@@ -34,7 +34,20 @@
 - Memory:                   32768MB RAM
 - Card name:              NVIDIA GeForce GTX 1070
 
-### **integrated development environment** (IDE)
+### Integrated development environment (IDE)
 
 - Microsoft Visual Studio Community 2019 version 16.11.23
 
+### Language
+
+- C++ 20
+
+---
+
+## Changes
+
+### In Solution Scope
+
+- Avoiding use "using namespace std".
+- Use fixed-length integer types instead of unfixed integer types.
+  - See CoreTypes.h in CoreLibrary.
