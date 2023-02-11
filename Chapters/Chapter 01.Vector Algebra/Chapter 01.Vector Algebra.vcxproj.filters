@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\Legacy\InitFunctions.cpp">
+      <Filter>Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Legacy\tol.cpp">
+      <Filter>Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Legacy\VectorOps.cpp">
+      <Filter>Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Legacy\xmvec3.cpp">
+      <Filter>Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp" />
+    <ClCompile Include="source\VectorAlgebra.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Legacy">
+      <UniqueIdentifier>{75df5d32-32d7-480a-a951-3a77cb8d4dce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\VectorAlgebra.h" />
+  </ItemGroup>
+</Project>
