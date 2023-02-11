@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Legacy">
+      <UniqueIdentifier>{74812fc3-cc01-45c6-8a7b-edd6cb24b74d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\Legacy\xmmatrix.cpp">
+      <Filter>Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MatrixAlgebra.cpp" />
+    <ClCompile Include="source\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\MatrixAlgebra.h" />
+  </ItemGroup>
+</Project>

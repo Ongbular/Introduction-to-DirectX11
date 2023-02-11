@@ -8,9 +8,6 @@
 
 using namespace DirectX;
 
-/*
- * A static class that collects functionality from legacy code.
- */
 class VectorAlgebra
 {
 public:
@@ -24,5 +21,3 @@ public:
 	
 	static void ShowVectorOperations();
 };
-
-std::ostream& operator<<(std::ostream& os, FXMVECTOR v);

@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{b1eb7481-ca85-417e-aea9-fe9ca3d5c6ab}</ProjectGuid>
-    <RootNamespace>Chapter01VectorAlgebra</RootNamespace>
+    <RootNamespace>01VectorAlgebra</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

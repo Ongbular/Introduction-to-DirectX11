@@ -1,6 +1,15 @@
 #include "VectorAlgebra.h"
 #include <iostream>
 
+std::ostream& operator<<(std::ostream& os, FXMVECTOR v)
+{
+	XMFLOAT4 dest;
+	XMStoreFloat4(&dest, v);
+
+	os << "(" << dest.x << ", " << dest.y << ", " << dest.z << ")";
+	return os;
+}
+
 void VectorAlgebra::InitFunctions()
 {
 	XMVECTOR p = XMVectorZero();
@@ -124,13 +133,4 @@ void VectorAlgebra::ShowVectorOperations()
 	std::cout << "XMVectorSaturate(q)            = " << XMVectorSaturate(q) << std::endl;
 	std::cout << "XMVectorMin(p, v               = " << XMVectorMin(p, v) << std::endl;
 	std::cout << "XMVectorMax(p, v)              = " << XMVectorMax(p, v) << std::endl;
-}
-
-std::ostream& operator<<(std::ostream& os, FXMVECTOR v)
-{
-	XMFLOAT4 dest;
-	XMStoreFloat4(&dest, v);
-
-	os << "(" << dest.x << ", " << dest.y << ", " << dest.z << ")";
-	return os;
 }

@@ -1,6 +1,6 @@
 /*
 #include <windows.h> // for FLOAT definition
-#include <xnamath.h> 
+#include <xnamath.h>
 #include <iostream>
 using namespace std;
 

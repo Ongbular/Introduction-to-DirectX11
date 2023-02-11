@@ -18,13 +18,13 @@
     <ClInclude Include="include\CoreLibraryPCH.h">
       <Filter>CoreLibrary</Filter>
     </ClInclude>
-    <ClInclude Include="include\CoreDemo.h">
-      <Filter>CoreLibrary</Filter>
-    </ClInclude>
     <ClInclude Include="include\CoreAPI.h">
       <Filter>CoreLibrary</Filter>
     </ClInclude>
     <ClInclude Include="include\Misc\ConsoleManager.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Misc\ScopedDemo.h">
       <Filter>Misc</Filter>
     </ClInclude>
   </ItemGroup>
@@ -33,6 +33,9 @@
       <Filter>CoreLibrary</Filter>
     </ClCompile>
     <ClCompile Include="source\Misc\ConsoleManager.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Misc\ScopedDemo.cpp">
       <Filter>Misc</Filter>
     </ClCompile>
   </ItemGroup>
