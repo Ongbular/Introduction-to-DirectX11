@@ -51,3 +51,6 @@
 - Avoiding use "using namespace std".
 - Use fixed-length integer types instead of unfixed integer types.
   - See CoreTypes.h in CoreLibrary.
+- Use RAII Pettern.
+  - c++ standard smart pointers and ComPtr.
+- 
